@@ -1,9 +1,10 @@
-Bypass valve Control program board test.c
+SteamFieldController.c
+TimeFile.h
+TimeFile.c
 >compiler=C
 >memtype=cmm main ram compact
->optimize=-Os
+>optimize=-O1
 >-m32bit-doubles
 >-fno-exceptions
 >defs::-std=c99
->-lm
 >BOARD::ACTIVITYBOARD

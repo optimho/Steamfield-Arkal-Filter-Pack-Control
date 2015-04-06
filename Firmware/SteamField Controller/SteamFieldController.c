@@ -1,5 +1,9 @@
 
 /*
+ *
+ *SteamFileldController.c 
+ *
+ *Main listing 
 Steamfield Controller Firmware
 controls the bypass valve, opens if the flush cycles are to numerous.
   
@@ -7,6 +11,8 @@ controls the bypass valve, opens if the flush cycles are to numerous.
 functions recordEvent( period) this function will return the amount of operations preformed in a specified period in seconds
 The function is a low speed function and cannot really handle inputs at a frequency less than 1 second.   
 */
+
+
 #include <TimeFile.h>
 #define period 90    // This is the period that the amount of flush starts are counted
 #define diffAlarm 10    // This is the period that initiates a diff Alarm
